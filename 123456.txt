@@ -1,0 +1,40 @@
+consumer://192.168.0.176/org.demo.api.DemoService?
+
+application=dubbo_consumer
+category=consumers
+check=false
+dubbo=2.5.3
+
+interface=org.demo.api.DemoService
+methods=sayHello
+
+
+pid=19364
+
+side=consumer¡Átamp=1535439849080
+
+
+dubbo://192.168.0.176:20880/org.demo.api.DemoService?anyhost=true&application=dubbo_provider&dubbo=2.5.3&interface=org.demo.api.DemoService&methods=sayHello&pid=18800&side=provider¡Átamp=1535439839115
+dubbo://192.168.0.176:20880/org.demo.api.DemoService?anyhost=true&application=dubbo_provider&dubbo=2.5.3&interface=org.demo.api.DemoService&methods=sayHello&pid=18800&side=provider¡Átamp=1535439839115
+
+
+
+dubbo://192.168.0.176:20880/org.demo.api.DemoService?
+
+
+anyhost=true
+application=dubbo_provider
+dubbo=2.5.3
+interface=org.demo.api.DemoService
+methods=sayHello
+pid=18800
+side=provider¡Átamp=1535439839115
+
+
+
+
+<modelVersion>4.0.0</modelVersion>
+  <groupId>dodolook.gwj.dubbo</groupId>
+  <artifactId>dubbo-boot-demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
